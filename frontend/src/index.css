@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  --cream: #FAF8F5;
+  --beige: #F2EDE6;
+  --sand: #E5DDD3;
+  --tan: #C9B99A;
+  --brown: #8B6F47;
+  --dark-brown: #4A3728;
+  --text: #1A1208;
+  --text-muted: #7A6A58;
+  --white: #FFFFFF;
+  --success: #2D7D5A;
+  --success-bg: #EAF5EE;
+  --warning: #B86B2A;
+  --warning-bg: #FDF3EA;
+  --danger: #A03030;
+  --danger-bg: #FDF0EE;
+  --blue: #2A5FAC;
+  --blue-bg: #EAF0FB;
+  --shadow-sm: 0 1px 4px rgba(74,55,40,0.08), 0 2px 8px rgba(74,55,40,0.06);
+  --shadow-md: 0 4px 12px rgba(74,55,40,0.10), 0 2px 6px rgba(74,55,40,0.06);
+  --shadow-lg: 0 8px 32px rgba(74,55,40,0.14);
+  --radius: 14px;
+  --radius-sm: 8px;
+  --sidebar-width: 248px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3 { font-family: 'Playfair Display', serif; }
+
+button { cursor: pointer; font-family: 'Inter', sans-serif; }
+input, textarea, select { font-family: 'Inter', sans-serif; }
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--beige); }
+::-webkit-scrollbar-thumb { background: var(--tan); border-radius: 3px; }
+
+@keyframes fadeIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+@keyframes scaleIn { from { transform:scale(0.95); opacity:0; } to { transform:scale(1); opacity:1; } }
+@keyframes slideInLeft { from { opacity:0; transform:translateX(-16px); } to { opacity:1; transform:translateX(0); } }
+@keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.4; } }
+@keyframes spin { to { transform:rotate(360deg); } }
+@keyframes shimmer { 0% { background-position:-200% 0; } 100% { background-position:200% 0; } }
+
+.animate-fade { animation: fadeIn 0.4s ease both; }
+.animate-scale { animation: scaleIn 0.4s ease both; }
