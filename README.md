@@ -51,14 +51,6 @@ cp .env.example .env
 npm start
 ```
 
-Backend runs on **http://localhost:5000**.
-
-If port 5000 is already in use on Windows, find & kill the process:
-```
-netstat -ano | findstr :5000
-taskkill /PID <pid> /F
-```
-
 ### 2. Frontend
 
 ```bash
