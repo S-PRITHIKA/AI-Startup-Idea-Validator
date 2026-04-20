@@ -1,8 +1,8 @@
-# Startup Validator v3.1 — Investor Edition
+# Startup Validator  — Investor Edition
 
 AI-powered startup idea validation with **Gemini**. Generates a clean, investor-ready Smart Validation Report and lets you **download it as a polished .docx** to send straight to your manager.
 
-## What's new in v3.1
+## What's new 
 
 - **Downloadable .docx report** — one click on the Validation Report page (or Results page) gives you a professionally formatted Word document with all six sections + final decision + cover page, ready to email or print.
 - **Cleaner sidebar layout** — each report area (Validation Report, Execution Blueprint, Competitor Gaps) lives on its own dedicated page. The Results page is now a focused overview that links into them.
@@ -84,8 +84,3 @@ The file includes: cover page, KPI table (score + decision), all six sections, f
 - **AI** — Google Gemini (with multi-model fallback chain)
 - **Optional** — YouTube Data API v3, SerpAPI
 
-## Troubleshooting
-
-- *"No Gemini model responded successfully"* — your API key is missing or invalid. Get a free key at <https://aistudio.google.com/app/apikey> and put it in `backend/.env`.
-- *"Failed to parse Gemini JSON"* — the backend already auto-repairs truncated JSON and retries with two split calls. If you still see this, the key is rate-limited; wait 60 seconds and try again.
-- *"No videos found"* — add `YOUTUBE_API_KEY` to `.env` to enable the Learning Hub.
