@@ -34,33 +34,6 @@ AI-powered startup idea validation with **Gemini**. Generates a clean, investor-
 6. **Revenue Model** — How this makes money
 7. **Final Decision** — Build / Pivot / Drop + rationale
 
-## Setup
-
-### 1. Backend
-
-```bash
-cd backend
-npm install
-cp .env.example .env
-# edit .env — at minimum set:
-#   GEMINI_API_KEY=...     (required, free at https://aistudio.google.com/app/apikey)
-#   MONGODB_URI=...        (required)
-#   JWT_SECRET=...         (required)
-#   YOUTUBE_API_KEY=...    (optional — enables Learning Hub videos)
-#   SERPAPI_KEY=...        (optional — enables live competitor search)
-npm start
-```
-
-### 2. Frontend
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
-Frontend runs on **http://localhost:3000** and proxies API calls to the backend.
-
 ## Downloading the report
 
 1. Submit an idea on **Validate Idea**.
