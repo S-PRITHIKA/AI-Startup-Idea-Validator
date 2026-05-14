@@ -44,7 +44,7 @@ The file includes: cover page, KPI table (score + decision), all six sections, f
 
 ## Tech stack
 
-- **Frontend** — React 18, Recharts, `docx` (client-side Word generation), `file-saver`
+- **Frontend** — React 18, Recharts 
 - **Backend** — Node + Express, Mongoose, JWT auth
 - **AI** — Google Gemini (with multi-model fallback chain)
 - **Optional** — YouTube Data API v3, SerpAPI
