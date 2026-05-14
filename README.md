@@ -1,4 +1,4 @@
-# Startup Validator  — Investor Edition
+# Startup Validator 
 
 AI-powered startup idea validation with **Gemini**. Generates a clean, investor-ready Smart Validation Report and lets you **download it as a polished .docx** to send straight to your manager.
 
