@@ -6,7 +6,6 @@ AI-powered startup idea validation with **Gemini**. Generates a clean, investor-
 
 - **Downloadable .docx report** — one click on the Validation Report page (or Results page) gives you a professionally formatted Word document with all six sections + final decision + cover page, ready to email or print.
 - **Cleaner sidebar layout** — each report area (Validation Report, Execution Blueprint, Competitor Gaps) lives on its own dedicated page. The Results page is now a focused overview that links into them.
-- **Consistent visual style** — random emoji icons removed across the app and replaced with a uniform geometric glyph set.
 
 ## Sidebar sections
 
@@ -40,7 +39,6 @@ AI-powered startup idea validation with **Gemini**. Generates a clean, investor-
 2. After analysis, open **Report → Validation Report** in the sidebar (or click "Download Report" on the Results page).
 3. Click **Download Report (.docx)** — a styled Word document is generated entirely in the browser, no server round-trip.
 
-The file includes: cover page, KPI table (score + decision), all six sections, final decision banner, and an optional pitch-deck appendix.
 
 ## Tech stack
 
